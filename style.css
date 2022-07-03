@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-image: url('pexels-sebastian-ervi-1763067.jpg');
+    height: 170vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    position:absolute;
+    width: 205px;
+    height: 100%;
+    background: rgb(21, 194, 47);
+    top: 85px;
+    left: -300px;
+    transition: .4s;
+    border: 5px solid black;
+    border-radius: 20px;
+  }
+
+  #sidebar:hover{
+    background-color: rgb(13, 91, 8);
+    transition:all ease-in-out .4s;
+}
+
+  #sidebar ul li {
+    list-style: none;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 21px 24px;
+    width: 70px;
+    margin: 30px 40px;
+    background-color: black;
+ }
+ 
+
+ #sidebar ul li:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all ease-in .4s;
+  border: 3px solid black;
+ }
+
+  #sidebar ul li h5{
+    justify-content: center;
+    align-items: center;
+    margin: 0 14px;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  #sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+  }
+
+  .toggle-btn span {
+    width: 35px;
+    height: 20px;
+    background: rgb(21, 194, 47);
+    display: flex;
+    border-radius: 50px;
+    border: 3px solid black;
+    margin-top: 3px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    margin-left: -10px;
+  }
+
+  .toggle-btn span:hover{
+    border-radius: 50px;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+  }
+
+  .toggle-btn span h1{
+    width: 20px;
+    position: relative;
+    bottom: 10px;
+    font-size: 2rem;
+  }
+
+  #sidebar.active {
+    left: 0;
+  }
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    border-top: 2px solid rgb(21, 194, 47);
+   border-bottom: 2px solid rgb(21, 194, 47); ;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+    }
+
+nav ul li{
+    padding: 0 12px;
+}
+
+nav ul .btn1{
+  padding: 10px 23px;
+  font-size: 1.2rem;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+  color: rgb(244, 244, 244);
+  border-radius: 20px;
+  position:absolute;
+  right: 160px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  }
+
+  nav ul .btn2{
+    padding:10px 22px;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: rgb(244, 244, 244);
+    border-radius: 20px;
+    position:absolute;
+    right: 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    }
+
+    nav ul .btn1:hover{
+      padding:10px 23px;
+      font-size: 1.2rem;
+      background-color: rgb(0, 0, 0);
+      border: 2px solid white;
+      color: rgb(244, 244, 244);
+      border-radius: 20px;
+      position:absolute;
+      right: 160px;
+      cursor: pointer;
+      background-color: #fff;
+      color: black;
+      transition: all ease-in .4s;
+      font-family: 'Varela Round', sans-serif;
+      }
+      
+      nav ul .btn2:hover{
+        padding:10px 22px;
+        font-size: 1.2rem;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+        color: rgb(244, 244, 244);
+        border-radius: 20px;
+        position:absolute;
+        right: 15px;
+        cursor: pointer;
+        background-color: #fff;
+        color: black;
+        transition: all ease-in .4s;
+        font-family: 'Varela Round', sans-serif;
+        }
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.container{
+    height: 300vh;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(21, 194, 47);
+    border-radius: 20px;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 5px auto;
+   width: 70%;
+   border-radius: 14px;
+   padding: 34px;
+   background-image: url('gery-wibowo-AhJZIPrIjZk-unsplash.jpg');
+}
+
+.container1{
+  height: 40vh;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(21, 194, 47);
+  border-radius: 20px;
+ font-family: 'Varela Round', sans-serif;
+ display: flex;
+ margin: 70px auto;
+ width: 95%;
+ border-radius: 14px;
+ padding: 34px;
+ background-image: url('gery-wibowo-AhJZIPrIjZk-unsplash.jpg');
+}
+
+
+.box1{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 20px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('istockphoto-1308684522-612x612.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box2{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 20px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('singer-bg2.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box3{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 20px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('singer-bg3.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box4{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 20px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('singer-bg6.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box5{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 20px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('singer-bg4.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box6{
+  background-color: rgb(30, 175, 40);
+  width: 10%;
+  padding: 0 30px;
+  height: 65%;
+  margin: 50px 25px;
+  display:flex;
+  flex-direction: row;
+  background-image: url('singer-bg5.jpg');
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box1 img{
+  height: 88%;
+  width: 120px;
+  border-radius: 100px;
+  margin: 10px 17px;
+  border: 3px solid black;
+}
+.box2 img{
+  height: 75%;
+  width: 160px;
+  border-radius: 100px;
+  margin: 20px -3px;
+  border: 3px solid rgb(255, 245, 245);
+}
+.box3 img{
+  height: 82%;
+  width: 105px;
+  border-radius: 40px;
+  margin: 15px 25px;
+  border: 3px solid rgb(0, 0, 0);
+}
+.box4 img{
+  height: 63%;
+  width: 150px;
+  border-radius: 40px;
+  margin: 36px 2px;
+  border: 3px solid rgb(255, 251, 251);
+}
+.box5 img{
+  height: 85%;
+  width: 130px;
+  border-radius: 60px;
+  margin: 13px 11px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.box6 img{
+  height: 85%;
+  width: 130px;
+  border-radius: 60px;
+  margin: 13px 11px;
+  border: 3px solid rgb(255, 243, 243);
+}
+.bottom{
+    position:sticky;
+    bottom: 0;
+    height: 140px;
+    margin: 280px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-top:2px solid rgb(21, 194, 47);
+    border-bottom:2px solid rgb(21, 194, 47) ;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songList h1{
+    position: relative;
+    font-size: 1.5rem;
+    top: 10px;
+}
+.songList1 h1{
+  position: relative;
+  top: 2px;
+}
+.songList2 h1{
+  position: relative;
+  top: 2px;
+}
+.songList3 h1{
+  position: relative;
+  top: 2px;
+}
+.songList4 h1{
+  position: relative;
+  top: 2px;
+}
+.songList5 h1{
+  position: relative;
+  top: 2px;
+}
+.songList6 h1{
+  position: relative;
+  top: 2px;
+}
+.songList7 h1{
+  position: relative;
+  top: 2px;
+}
+.songList8 h1{
+  position: relative;
+  top: 2px;
+}
+.songList9 h1{
+  position: relative;
+  top: 2px;
+}
+.songItemContainer{
+    margin-top: 30px;
+    width: 130%;
+}
+
+.songItem{
+    height: 100px;
+    display: flex;
+    background-image: url('istockphoto-1308684522-612x612.jpg');
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+

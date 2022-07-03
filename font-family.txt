@@ -1,0 +1,2 @@
+font-family: 'Arima', cursive;
+font-family: 'Kanit', sans-serif;
